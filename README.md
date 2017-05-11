@@ -5,4 +5,4 @@ Use arrow keys, WASD, TFGH or IJKL to move the animals or select an animal with 
 
 ## License
 
-The spritesheet's [Noto Emoji](https://github.com/googlei18n/noto-emoji) are under the ([Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE)).
+The spritesheet's [Noto Emoji](https://github.com/googlei18n/noto-emoji) are under the [Apache License 2.0](https://github.com/googlei18n/noto-emoji/blob/master/LICENSE).
