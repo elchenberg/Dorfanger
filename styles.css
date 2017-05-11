@@ -1,3 +1,5 @@
 body{background-image:-webkit-gradient(radial,center,center,from(#333),color-stop(66%,#222),to(#000));background-image:-webkit-radial-gradient(center,ellipse cover,#333 0,#222 66%,#000 100%);background-image:-moz-radial-gradient(center,ellipse cover,#333 0,#222 66%,#000 100%);background-image:-ms-radial-gradient(center,ellipse cover,#333 0,#222 66%,#000 100%);background-image:-o-radial-gradient(center,ellipse cover,#333 0,#222 66%,#000 100%);background-image:radial-gradient(ellipse at center,#333 0,#222 66%,#000 100%)}
 header{max-width:512px;margin:auto}
 main>canvas{position:absolute;max-width:100%;max-height:100%;padding:0;right:0;left:0;margin:auto}
+@media only screen and (max-height:750px){h1{display:none}}
+@media only screen and (max-height:680px){header{display:none}}
