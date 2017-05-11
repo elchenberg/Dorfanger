@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset=UTF-8>
+<meta name=description content="A small and simple tile-based map with a few emoji animals to move around. Written in HTML, CSS, and Javascript over the course of a weekend with page speed, browser compatibility, and responsive web design in mind.">
+<meta name=keywords content=HTML5,HTML,CSS3,CSS,JavaScript,Canvas,Touch,Responsive>
+<meta name=author content="Helge Eichelberg">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Dorfanger</title>
+<style>
+html{height:100%}
+body{margin:0;padding:0;color:#eee;background:#111;font-family:Montserrat,Verdana,Geneva,sans-serif;text-align:center}
+header{max-width:512px;margin:auto}
+h1{font-size:4em;margin:0 auto}
+a{color:#69e;font-weight:700;text-decoration:none}
+a:hover{text-decoration:underline}
+footer>p{display:none}
+img{display:none}
+</style>
+</head>
+<body>
+<header>
+<h1 lang=de>Dorfanger</h1>
+<p>Use arrow keys, WASD, TFGH or IJKL to move the animals or select an animal with your mouse/finger and move it to a neighbouring field with another click/touch.</p>
+<p><small>
+Twitter: <a href=https://twitter.com/elchenberg>twitter.com/elchenberg</a><br>
+Emoji: <a href=https://github.com/googlei18n/noto-emoji>Noto Emoji</a> (<a href=https://github.com/googlei18n/noto-emoji/blob/master/LICENSE>Apache License 2.0</a>)<br>
+Source: <a href="https://github.com/elchenberg/Dorfanger">github.com/elchenberg/Dorfanger</a><br>
+License: <a href="https://github.com/elchenberg/Dorfanger/blob/master/LICENSE">MIT License</a>
+</small></p>
+</header>
+<main>
+<canvas id=background style="z-index: 0"></canvas>
+<canvas id=playground style="z-index: 1"></canvas>
+<canvas id=foreground style="z-index: 2"></canvas>
+</main>
+<footer>
+<p>A small and simple tile-based map with a few emoji animals to move around. Written in HTML, CSS, and Javascript over the course of a weekend with page speed, browser compatibility, and responsive web design in mind.</p>
+<img id=spritesheet src=spritesheet.png alt="Hidden spritesheet with emojis of some trees and animals." width=384 height=64>
+<script src=main.min.js></script>
+<link rel=stylesheet href=styles.css>
+</footer>
+</body>
+</html>
